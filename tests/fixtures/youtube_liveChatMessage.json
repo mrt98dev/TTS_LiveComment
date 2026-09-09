@@ -1,0 +1,64 @@
+{
+  "kind": "youtube#liveChatMessageListResponse",
+  "etag": "etag-example",
+  "nextPageToken": "next-page-token-example",
+  "pollingIntervalMillis": 5030,
+  "pageInfo": {
+    "totalResults": 2,
+    "resultsPerPage": 2
+  },
+  "items": [
+    {
+      "kind": "youtube#liveChatMessage",
+      "etag": "etag-item-1",
+      "id": "LCC.abc123",
+      "snippet": {
+        "type": "textMessageEvent",
+        "liveChatId": "Cg0KC3Rlc3RfdmlkZW9JZBILQ",
+        "authorChannelId": "UCauthor000000000000001",
+        "publishedAt": "2026-09-09T10:15:30.500Z",
+        "hasDisplayContent": true,
+        "displayMessage": "Chào shop, giá bao nhiêu vậy ạ?",
+        "textMessageDetails": {
+          "messageText": "Chào shop, giá bao nhiêu vậy ạ?"
+        }
+      },
+      "authorDetails": {
+        "channelId": "UCauthor000000000000001",
+        "channelUrl": "http://www.youtube.com/channel/UCauthor000000000000001",
+        "displayName": "Nguyễn Văn A",
+        "profileImageUrl": "https://yt3.ggpht.com/example-avatar-1.jpg",
+        "isVerified": false,
+        "isChatOwner": false,
+        "isChatSponsor": false,
+        "isChatModerator": false
+      }
+    },
+    {
+      "kind": "youtube#liveChatMessage",
+      "etag": "etag-item-2",
+      "id": "LCC.def456",
+      "snippet": {
+        "type": "textMessageEvent",
+        "liveChatId": "Cg0KC3Rlc3RfdmlkZW9JZBILQ",
+        "authorChannelId": "UCauthor000000000000002",
+        "publishedAt": "2026-09-09T10:15:32.120Z",
+        "hasDisplayContent": true,
+        "displayMessage": "Còn size M không shop ơi?",
+        "textMessageDetails": {
+          "messageText": "Còn size M không shop ơi?"
+        }
+      },
+      "authorDetails": {
+        "channelId": "UCauthor000000000000002",
+        "channelUrl": "http://www.youtube.com/channel/UCauthor000000000000002",
+        "displayName": "Trần Thị B",
+        "profileImageUrl": "https://yt3.ggpht.com/example-avatar-2.jpg",
+        "isVerified": false,
+        "isChatOwner": false,
+        "isChatSponsor": false,
+        "isChatModerator": false
+      }
+    }
+  ]
+}
